@@ -1,0 +1,311 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# auto install tools v.1.1
+# Coded by Hafidz Alfaris
+# Thanks Too Bagoes Poetra
+# Copyright Pdf Read
+# Resik layar
+clear
+
+lightgreen='\e[0;34m'
+red='\e[1;31m'
+okegreen='\e[033;92m'
+blue='\e[0;34m'
+white='\e[1;37m'
+
+#######################################
+# CTRL C
+#######################################
+trap ctrl_c INT
+ctrl_c() {
+echo -e $red"[#]> (ctrl + c) detected, trying to exit"
+read
+enter
+}
+
+echo -e $red"                        0000000000000000000000"
+sleep 1
+echo -e $red"                       000000000000000000000000"
+sleep 1
+echo -e $red"                      00000000000000000000000000"
+sleep 1
+echo -e $red"                     0000000000000000000000000000"
+sleep 1
+echo -e $red"                    000000000000000000000000000000"
+sleep 1
+echo -e $red"                   00000000000000000000000000000000"
+sleep 1
+echo -e $red"              000000000000000000000000000000000000000000"
+sleep 1
+echo -e $red"              00$okegreen +==================================+"$red 00
+sleep 1
+echo -e $red"              00$okegreen +  $red MATUR SUWUN KAGEM ALLAH SWT  $okegreen  +"$red 00
+sleep 1
+echo -e $red"              00$okegreen +  $red Program Saking Hafidz Alfaris $okegreen +"$red 00
+sleep 1
+echo -e $red"              00$okegreen +  $white Kopirigt Hafidz Alfaris   $okegreen     +"$red 00
+sleep 1
+echo -e $red"              00$okegreen +  $white Gunakke Kanthi Bijak :P   $okegreen     +"$red 00
+sleep 1
+echo -e $red"              00$okegreen +==================================+"$red 00
+sleep 1
+echo -e $red"              000000000000000000000000000000000000000000"
+sleep 1
+echo -e $red"                   00000000000000000000000000000000"
+sleep 1
+echo -e $red"                    000000000000000000000000000000"
+sleep 1
+echo -e $red"                     0000000000000000000000000000"
+sleep 1
+echo -e $red"                      00000000000000000000000000"
+sleep 1
+echo -e $red"                       000000000000000000000000"
+sleep 1
+echo -e $red"                        0000000000000000000000"
+echo""
+echo -e $blue" (1).$okegreen Lek Ape Nyepam SMS GRAB"
+echo -e $blue" (2).$okegreen Lek Pengen Di Telpon Toko Pedia"
+echo -e $blue" (3).$okegreen Metasploit pramewok"
+echo -e $blue" (4).$okegreen D'TECH"
+echo -e $blue" (5).$okegreen Hunner"
+echo -e $blue" (6).$okegreen Webdav (Depes)"
+echo -e $blue" (7).$okegreen Weeman (Phising)"
+echo -e $blue" (8).$okegreen Throshammer (DOS)"
+echo -e $blue" (9).$okegreen Rutersploit (Wifi Hack)"
+echo -e $red" (A). SQLmap (Depes Poc Sql)"
+echo -e $red" (B). aircrack-ng (Hacking wifi)"
+echo -e $red" (C). Oh-myzysh (Tema)"
+echo -e $red" (D). instabot (Memopulerne Akunmu Ng Instagram)"
+echo -e $red" (E). Lacak Lokasi Ip"
+echo -e $okegreen" (BY). Metu !"
+read -p "root@User #~ " act;
+
+if [ $act = 1 ]
+then
+clear
+echo -e $red" Tunggu Pak dhoo..."
+sleep 2
+apt-get update && apt-get upgrade
+apt install python2
+apt install git
+pip2 install requests
+git clone https://github.com/p4kl0nc4t/Spammer-Grab
+cd Spammer-Grab
+chmod 777 spammer.py
+sleep 1
+echo -e $okegreen" Sampun Dados Pak Dhoo.."
+fi
+
+if [ $act = 2 ]
+then
+clear
+echo -e $red" Tunggu Pak Dhoo..."
+sleep 2
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install unzip
+apt-get install php
+git clone https://github.com/mrcakil/spam
+cd spam
+unzip toko-pedia.zip
+sleep 1
+echo -e $red" Sampun Dados Pak Dhoo.."
+fi
+
+if [ $act = 3 ]
+then
+clear
+echo -e $red" tunggu pak dhoo.."
+sleep 2
+apt update && upgrade
+apt install git
+apt install wget
+wgethttps://raw.githubusercontent.com/verluchie/termux-met
+chmod 777 install.sh
+sh install.sh
+sleep 1
+echo -e $red" sampun dados pak dhoo.."
+fi
+
+if [ $act = 4 ]
+then
+clear
+echo -e $blue" tunggu pak dhoo.."
+sleep 2
+apt update && apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/shawarkhanethicalhacker/D-TECT
+echo -e $blue" Monggo Pak dhoo..."
+fi
+
+if [ $act = 5 ]
+then
+clear
+echo -e $blue" Tunggu Kedap Pak Dhoo.."
+apt-get update && apt-get upgrade
+apt install python
+apt install git
+git clone https://github.com/b3-v3r/Hunner
+echo -e $blue" Monggo Pak Dhoo..."
+fi
+
+if [ $act = 6 ]
+then
+clear
+echo -e $blue" Tunggu Kedap Pak Dhoo.."
+apt-get update && apt-get upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+apt install openssl curl
+pkg install libcurl
+mkdir Jawatools
+cd ~/Jawatools
+wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
+chmod 777 webdav.py
+cd ~/
+echo -e $blue" Monggo Pak Dhoo.."
+fi
+
+if [ $act = 7 ] 
+then
+clear
+echo -e $blue" Tunggu Kedap Pak Dhoo.."
+apt update && apt upgrade 
+apt install python2 
+apt install git 
+git clone https://github.com/samyoyo/weeman 
+cd ~/weeman
+pip2 install beautifulsoup
+pip2 install bs4
+cd ~/
+echo -e $blue" Monggo Pak Dhoo.."
+fi
+
+if [ $act = 8 ]
+then
+clear
+echo -e $blue" Tunggu Kedap Pak Dhoo.."
+apt-get update && apt-get upgrade
+apt install python
+apt install git
+git clone https://github.com/cyweb/hammer
+cd ~/
+echo -e $blue" Monggo Pak Dhoo.."
+fi
+
+if [ $act = 9 ]
+then
+clear
+echo -e $blue" Tunggu Kedap Pak Dhoo.."
+apt update && apt upgrade
+apt install git
+apt install python2
+pip2 install requests
+git clone https://github.com/reverse-shell/routersploit.git
+cd routersploit
+pip install -r requirements.txt
+termux-fix-shebang rsf.py
+cd ~/
+echo -e $blue" Monggo Pak Dhoo.."
+fi
+
+if [ $act = A ] || [ $act = a ]
+then
+clear
+echo -e $red" Tunggu Kedap Pak Dhoo.."
+apt update && apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd ~/
+echo -e $red" Monggo Pak Dhoo.."
+fi
+
+if [ $red = B ] || [ $red b ]
+then
+clear
+echo -e $red" Tunggu Kedap Pak Dhoo.."
+apt-get update
+apt-get upgrade
+apt-get install aircrak-ng
+echo -e $red" Monggo Pak Dhoo.."
+fi
+
+if [ $act = C ] || [ $act = c ]
+then
+clear
+apt-get update && apt-get upgrade
+sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+~/.termux/colors.sh
+echo -e $okegreen" Nate Nganti Wernone termux ? Kalian ketik niki pak dhoo ~/.termux/colors.sh"
+echo -e $red" Monggo Pak Dhoo.."
+fi
+
+if [ $act = D ] || [ $act = d ]
+then
+clear
+apt update && apt upgrade
+apt install python2
+apt install git
+apt install nano
+git clone https://github.com/instabot-py/instabot.py
+echo -e $okegreen" Sampean Entawis Pak dhoo ngihh.."
+sleep 2
+cd instabot.py
+echo -e $okegreen" Sampean Ketikne nano Contoh.py"
+echo -e $red" Sampean Lebokne email Plus Password Ige Panjenengan pak dhoo.."
+echo -e $red" Monggo Pak Dhoo.."
+fi
+
+if [ $act = E ] || [ $act = e ]
+then
+clear
+sleep 1
+echo -e $red" sorry pak dhoo.. sinyale panjenengan Sampean Empakne!"
+sleep 3
+echo -e $red" Owh sampun empan?.. enten masalah niki ..sek sek pak dhoo ..sabar"
+sleep 2
+echo -e $blue" laa niki lo pon ..jalan ..bismilah"
+apt update && apt upgrade
+echo -e $red" ya allah ...gagal neh"
+sleep 1
+echo -e $blue" Sepuntene Kulo boten saged biantu ... Punteen ..."
+sleep 2
+echo -e $blue" Monggo pak dhoo.."
+fi
+
+if [ $act = BY ] || [ $act = by ]
+then
+clear
+echo -e $white" SELAMAT TINGGAL "
+echo -e $red"00ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+sleep 1
+echo -e $red"00ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+sleep 1
+echo -e $red"00ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+sleep 1
+echo -e $white"00ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+sleep 1
+echo -e $white"00ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+sleep 1
+echo -e $white"00ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $blue"000"
+echo -e $red"000000"
+echo -e $red"00000000"
+echo -e $red"0000000000"
+exit
+fi
+
