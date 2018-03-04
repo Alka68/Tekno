@@ -1,0 +1,142 @@
+#!/data/data/com.termux/files/bin/bash
+# Root For new bie
+# Resik Layar bushh
+clear
+i='\e[0;34m'
+a='\e[1;31m'
+ii='\e[033;92m'
+b='\e[0;34m'
+p='\e[1;37m'
+
+echo -e $i"         +=============================+"
+echo -e $a"         .....TOOLS BUAT INSTALL........"
+echo -e $a"         ..........DEFAULT.............."
+echo -e $i"         +=============================+"
+echo -e $i"               Happy For Tools :P"
+echo -e $ii"<><><><><><>" $p"For Request" $ii"<><><><><><><><>"
+echo -e $i"<>" $a" python" $i"                            <>"
+echo -e $i"<>" $a" python2" $i"                           <>"
+echo -e $i"<>" $a" git" $i"                               <>"
+echo -e $i"<>" $a" figlet" $i"                            <>"
+echo -e $i"<>" $a" toilet" $i"                            <>"
+echo -e $i"<>" $a" netcat" $i"                            <>"
+echo -e $i"<>" $a" neofetch" $i"                          <>"
+echo -e $i"<>" $a" Moon-Buggy" $i"                        <>"
+echo -e $i"<>" $a" Rubby"       $i"                             <>"
+echo -e $i"<>" $a" Screenfetch" $i"                       <>"
+echo -e $ii"<><><" $p"Write for Your request please" $ii"><><>"
+echo -e $p"........> exit < for you cant exit......."
+read -p "Root@newbie ~# " act;
+
+if [ $act = python ]
+then
+clear
+figlet Python
+echo -e $a" Please Wait..."
+sleep 1
+pkg install python
+echo -e $ii" Process Done"
+sleep 1
+echo -e $p" System Come Back on file"
+sleep 3
+cd /sdcard && bash tool
+fi
+
+if [ $act = python2 ]
+then
+clear
+figlet python2
+sleep 1
+echo -e $a" Please Wait..."
+pkg install python2
+echo -e $ii" Process Done"
+sleep 1
+echo -e $p" System Come Back On File"
+sleep 3
+cd /sdcard && bash tool
+fi
+
+if [ $act = git ]
+then
+clear
+figlet Git
+echo -e $a" Please Wait..."
+sleep 1
+pkg install git
+echo -e $a" Process Done"
+sleep 1
+echo -e $p"System Come Back On File"
+sleep 3
+cd /sdcard && bash tool
+fi
+
+if [ $act = figlet ]
+then
+clear
+figlet figlet
+echo -e $a" Please Wait..."
+sleep 1
+pkg install figlet
+echo -e $ii" Process Done"
+sleep 1
+echo -e $p" System Come Back On File"
+sleep 3
+cd /sdcard && bash t $act = neofetch ]
+fi
+ 
+if
+then
+clear
+figlet neofetch
+echo -e $p" Please Wait..."
+sleep 1
+pkg install neofetch
+echo -e $ii" Process Done"
+sleep 1
+echo -e $p" System Come Back On File"
+sleep 3
+cd /sdcard && bash tool
+fi
+
+if [ $act = ruby ]
+then
+clear
+figlet ruby
+echo -e $a" Please Wait..."
+sleep 1
+pkg install ruby
+echo -e $ii" Process Done"
+sleep 1
+echo -e $p" System Come Back On File"
+sleep 3
+cd /sdcard && bash tool
+fi
+
+if [ $act = screenfetch ]
+then
+figlet screeenfetch
+echo -e $a" Please Wait "
+sleep 1
+pkg install screenfetch
+echo -e $ii" Process Done"
+sleep 1
+echo -e $ii" System Come Back On File"
+sleep 3
+cd /sdcard && bash tool
+fi
+
+if [ $act = exit ]
+then
+echo -e $i" Thanks For You :)"
+sleep 1
+echo -e $i" One.."
+sleep 1
+echo -e $i" Two.."
+sleep 1
+clear
+sleep 1
+figlet Thanks
+sleep 1
+toilet you :D
+exit
+fi
